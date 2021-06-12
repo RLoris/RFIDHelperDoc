@@ -1,6 +1,6 @@
 # RFIDHelper
 
-![RFIDHelper](./assets/thumbnail.PNG)
+![RFIDHelper](./assets/thumbnail.png)
 
 - UE4 Plugin to handle RFID NFC tag operations
 - It exposes async nodes to read and write on a compatible NDEF tag (NFC Data exchange format)
@@ -19,7 +19,7 @@
 
 # Read
 
-![Read](./assets/node1hd.PNG)
+![Read](./assets/node1hd.png)
 
     Note: A small freeze may occur during reading, I'm still searching to find why
 
@@ -29,7 +29,7 @@
 
 # Write
 
-![Write](./assets/node2hd.PNG)
+![Write](./assets/node2hd.png)
 
     Note: A small freeze may occur during writing, I'm still searching to find why
 
