@@ -35,4 +35,4 @@
 
 | Node | Inputs | Outputs | Note |
 | ---- | ------ | ------- | ---- |
-| RFIDWriter | Message(FRFIDWriteMessage) |  TagWrite(FRFIDWriteResult), Error(FRFIDWriteResult) | Async node to write the first tag detected by the android phone with the provided message |
+| RFIDWriter | Message(FRFIDWriteMessage) |  TagWrite(FRFIDWriteResult), Error(FRFIDWriteResult) | Async node to write the first tag detected by the android phone with the provided message (overwrites all records stored on the tag with the new records)|
