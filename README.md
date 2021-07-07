@@ -9,6 +9,16 @@
 
 <br>
 
+# Changelog
+
+## v1.1
+
+- Fix freeze when scanning
+- Disabling NFC sound when discovering a tag
+- NFC continuous state change detection
+
+<br>
+
 ![Nodes](./assets/nodeshd.PNG)
 
 [Link to the plugin in the marketplace](https://www.unrealengine.com/marketplace/en-US/product/f5bacbc14f7f42c2b0f1c8032315d4fd)
@@ -21,7 +31,7 @@
 
 ![Read](./assets/node1hd.png)
 
-    Note: A small freeze may occur during reading, I'm still searching to find why
+    Note: A small freeze may occur during reading on older devices
 
 | Node | Inputs | Outputs | Note |
 | ---- | ------ | ------- | ---- |
@@ -31,7 +41,7 @@
 
 ![Write](./assets/node2hd.png)
 
-    Note: A small freeze may occur during writing, I'm still searching to find why
+    Note: A small freeze may occur during writing on older devices
 
 | Node | Inputs | Outputs | Note |
 | ---- | ------ | ------- | ---- |
