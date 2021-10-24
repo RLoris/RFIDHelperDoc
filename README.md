@@ -46,3 +46,13 @@
 | Node | Inputs | Outputs | Note |
 | ---- | ------ | ------- | ---- |
 | RFIDWriter | Message(FRFIDWriteMessage) |  TagWrite(FRFIDWriteResult), Error(FRFIDWriteResult) | Async node to write the first tag detected by the android phone with the provided message (overwrites all records stored on the tag with the new records)|
+
+# Shutdown
+
+    Note: Call this node when you want to stop the continuous detection of tags for read or write operations
+
+![Shutdown](./assets/node3hd.png)
+
+| Node | Inputs | Outputs | Note |
+| ---- | ------ | ------- | ---- |
+| ShutdownRFID | void | void | Stops all background processes (Reader and writer), you can call the nodes again if you want to restart the process |
